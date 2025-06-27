@@ -176,7 +176,7 @@ form.addEventListener('submit', (e) => {
                     if (password.value === 'fashiontech') {
                         alert('Login successful!');
                         // You can redirect the user to the dashboard or home page here
-                        window.location.href = 'file:///C:/Users/dell/OneDrive/Desktop/mobile%20wallet/dashboard/dashboard.html';
+                        window.location.href = 'file:///C:/Users/dell/OneDrive/Desktop/mobile%20wallet/dashboard/index.html';
                         loginAttempts = maxAttempts;
                     } else {
                         alert('Invalid password');
