@@ -190,7 +190,7 @@ form.addEventListener('submit', (e) => {
             }
         }
         if (loginAttempts === maxAttempts) {
-            alert('Maximum login attempts reached');
+            // alert('Maximum login attempts reached');
             // You can redirect the user to a page that says they have been locked out
             // window.location.href = 'locked-out.html';
         }

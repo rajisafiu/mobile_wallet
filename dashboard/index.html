@@ -4,30 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h2>MY DASHBOARD </h2>
         <h2>Welcome Back <span style="color: green;">RSK</span> Fashion</h2>
         <label>How can I help you?🤔</label>
-        <select id="dayselect">
-            <option value="Select a day">Select a day</option>
-            <option value="January 1st">January 1st</option>
-            <option value="April 25th">April 25th</option>
-            <option value="May 1st">May 1st</option>
-            <option value="May 29th">May 29th</option>
-            <option value="June 12th">June 12th</option>
-            <option value="August 29th">August 29th</option>
-            <option value="October 1st">October 1st</option>
-            <option value="December 25th">December 25th</option>
-            <option value="December 26th">December 26th</option>
+        <select id="selectoption">
+            <option value="Select an option">Select an option</option></option>
+            <option value="My USD Balance">My USD Balance</option>
+            <option value="My Naira Balance">My Naira Balance</option>
+            <option value="Transfer">Transfer</option>
+            <option value="Deposit">Deposit</option>
         </select>
         <br><br>
-        <button onclick="showPlan()">Show plan</button>
+        <button onclick="dashboard()">Initiate</button>
         <p id="output"></p>
     </div>
 
-    <script src="./dashboard.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
