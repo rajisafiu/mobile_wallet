@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.register-link, .signin-link {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.register-link {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.register-link:hover {
+    background-color: #3e8e41;
+}
+
+.signin-link {
+    background-color: #03A9F4;
+    color: #fff;
+}
+
+.signin-link:hover {
+    background-color: #039BE5;
+}

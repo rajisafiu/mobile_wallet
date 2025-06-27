@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.signup, .forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signup a, .forgot-password a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.signup a:hover, .forgot-password a:hover {
+    color: #3e8e41;
+}
+
+/* Media queries for responsiveness
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 20px auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    }
+} */
