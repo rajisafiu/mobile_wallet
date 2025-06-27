@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <h2>📅Whats the plan for each public holiday?🤦‍♂️</h2>
+        <label>Select Public Holiday</label>
+        <select id="dayselect">
+            <option value="Select a day">Select a day</option>
+            <option value="January 1st">January 1st</option>
+            <option value="April 25th">April 25th</option>
+            <option value="May 1st">May 1st</option>
+            <option value="May 29th">May 29th</option>
+            <option value="June 12th">June 12th</option>
+            <option value="August 29th">August 29th</option>
+            <option value="October 1st">October 1st</option>
+            <option value="December 25th">December 25th</option>
+            <option value="December 26th">December 26th</option>
+        </select>
+        <br><br>
+        <button onclick="showPlan()">Show plan</button>
+        <p id="output"></p>
+    </div>
+
+    <script src="./dashboard.js"></script>
+</body>
+</html>
